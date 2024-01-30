@@ -3,12 +3,10 @@ import PriceOptions from "./Components/PriceOptions/PriceOptions";
 
 function App() {
   return (
-    <>
+    <div className="container mx-auto">
       <Navbar />
-
-      <h1 className="text-3xl">Hello World</h1>
       <PriceOptions />
-    </>
+    </div>
   );
 }
 
